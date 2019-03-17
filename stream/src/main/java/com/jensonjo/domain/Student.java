@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
  */
 @Data
 @Builder
-@NoArgsConstructor
+@NoArgsConstructor @AllArgsConstructor
 public class Student {
     private String fName;
     private String lName;
