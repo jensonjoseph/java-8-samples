@@ -27,8 +27,11 @@ public class Filter {
         list.add("");
         list.add("");
 
-        List<String> dList = list.stream().distinct().filter(
-                element -> element.toLowerCase().contains("i".toLowerCase()))
+        List<String> dList = list
+                .stream()
+                .distinct()
+                .filter(
+                        element -> element.toLowerCase().contains("i".toLowerCase()))
                 .collect(Collectors.toList());
         log.info("List of names that contain char 'i'");
         dList.stream().forEach(element -> log.info(element));
