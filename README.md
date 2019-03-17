@@ -2,4 +2,4 @@
 
 To run stream
 cd to /java8samples/stream
-mvn exec:java -Dexec.mainClass=Test
+mvn exec:java -Dexec.mainClass=com.jensonjo.Main
